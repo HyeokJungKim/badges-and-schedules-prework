@@ -15,4 +15,7 @@ def assign_rooms(array)
 end
 
 def printer(array)
+  for item in array do
+    puts item
+  end
 end
