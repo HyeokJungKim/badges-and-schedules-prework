@@ -16,7 +16,7 @@ end
 
 def printer(array)
   arr = batch_badge_creator(array)
-  farr = assign_rooms(arr)
+  farr = assign_rooms(array)
   for item in arr do
     puts item
   end
