@@ -14,6 +14,8 @@ def assign_rooms(array)
   return arr
 end
 
-def printer(name)
-  puts name
+def printer(array)
+  for item in array do
+    badge_maker(name)
+  end
 end
