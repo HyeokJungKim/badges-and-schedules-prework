@@ -9,7 +9,7 @@ end
 
 def assign_rooms(array)
   arr = []
-  for i in 0..array.size do
+  for i in (0..array.size) do
     arr.push("Hello, #{array[i]}! You'll be assigned to #{i+1}!")
   end
 end
