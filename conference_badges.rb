@@ -19,9 +19,9 @@ def printer(array)
   farr = assign_rooms(arr)
   for item in arr do
     puts item
-  end 
+  end
 
   for fitem in farr do
     puts fitem
-  end 
+  end
 end
