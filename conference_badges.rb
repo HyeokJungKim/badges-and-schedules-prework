@@ -16,6 +16,7 @@ end
 
 def printer(array)
   for item in array do
-    puts item
+    badge_maker(item)
+    assign_rooms(item)
   end
 end
